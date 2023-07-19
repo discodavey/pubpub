@@ -60,7 +60,7 @@ const CollapsibleHeader = (props: CollapsibleHeaderProps) => {
 								<Button
 									minimal
 									onClick={() => setIsMenuOpen(true)}
-									rightIcon="menu"
+									className="menu-icon"
 								>
 									Menu
 								</Button>
