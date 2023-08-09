@@ -9,6 +9,7 @@ $bp: vendor.$bp-namespace;
 .collapsible-header-component {
 	color: #212121;
 	width: 1114px;
+	max-width: 100%;
 
 	// Link/button hover color
 	a,
@@ -166,7 +167,7 @@ $bp: vendor.$bp-namespace;
 
 				&.primary {
 					flex: 1;
-					margin-top: 0.5rem;
+					margin-top: 0.45rem;
 					height: 24px;
 
 					ul {
@@ -368,4 +369,5 @@ $bp: vendor.$bp-namespace;
 	display: block;
 	width: 24px;
 	height: 24px;
+	text-indent: -3000px;
 }
